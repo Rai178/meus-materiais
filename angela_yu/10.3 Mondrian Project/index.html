@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  
+
+    .container {
+      width: 748px;
+      height: 748px;
+      display: grid;
+      background-color: #000;
+      grid-template-columns: 320px 419px;
+      grid-template-rows: 414px 325px;
+      gap: 9px;
+    }
+
+    .griditem {
+      background-color: #F0F1EC;
+    }
+
+    .first {
+      background-color: #E72F24;
+      
+    }
+
+    .thirty {
+      display: grid;
+      gap: 9px;
+      grid-template-rows: 296px 20px;
+      background-color: #000;
+    }
+
+    .white1, .white2 {
+      background-color: #F0F1EC;
+    }
+
+    .fourty {
+      display: grid;
+      gap: 9px;
+      background-color: #000;
+      grid-template-columns: 360px 50px;
+
+    }
+
+    .fourty1, .fourty2 {
+      background-color: #F0F1EC;
+    }
+    
+    .fourty1 {
+      display: grid;
+      gap: 9px;
+      background-color: #000;
+      grid-template-rows: 296px 20px;
+    }
+
+    .white {
+      background-color: #F0F1EC;
+    }
+
+    .colors {
+      background-color: #000;
+      display: grid;
+      grid-template-columns: 196px 153px;
+      gap: 9px;
+
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .black {
+      background-color: #232629;
+    }
+
+    .fourty2 {
+      display: grid;
+      background-color: #000;
+      grid-template-rows: 130px 175px;
+      gap: 20px;
+    }
+
+    .div1 {
+      background-color: #004592;
+    }
+
+    .div2 {
+      background-color: #F0F1EC;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+      <div class="griditem first"></div>
+      <div class="griditem second"></div>
+      <div class="griditem thirty">
+        <div class="white1"></div>
+        <div class="white2"></div>
+      </div>
+      <div class="griditem fourty">
+        <div class="fourty1">
+          <div class="white"></div>
+          <div class="colors">
+            <div class="yellow"></div>
+            <div class="black"></div>
+          </div>
+        </div>
+        <div class="fourty2">
+          <div class="div1"></div>
+          <div class="div2"></div>
+        </div>
+      </div>
+  </div>
+</body>
+
+</html>

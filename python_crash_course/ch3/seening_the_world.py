@@ -1,0 +1,12 @@
+places_to_go = ['montreal', 'new york', 'paris', 'londres', 'israel']
+print(places_to_go)
+print(sorted(places_to_go))
+print(places_to_go)
+places_to_go.reverse()
+print(places_to_go)
+places_to_go.reverse()
+print(places_to_go)
+places_to_go.sort()
+print(places_to_go)
+places_to_go.reverse()
+print(places_to_go)

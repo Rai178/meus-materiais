@@ -1,0 +1,53 @@
+a:link {
+  color: #0086b3;
+}
+
+.page-heading {
+  font-size: 1.6rem;
+  color: #0086b3;
+}
+
+.note-author {
+  padding-left: 3em;
+  font-weight: bold;
+}
+
+.note-body {
+  padding-left: 6em;
+}
+
+.site-nav {
+  display: flex;
+}
+.site-nav > li {
+  margin-top: 0;
+}
+.site-nav.is-active {
+  display: block;
+}
+
+html {
+  font-size: 1rem;
+}
+@media (min-width: 45em) {
+  html {
+    font-size: 1.25rem;
+  }
+}
+
+.button {
+  padding: 1em 1.25em;
+  background-color: #265559;
+  color: #333;
+}
+
+.media {
+  background-color: #eee;
+}
+.media::before {
+  display: table;
+  content: " ";
+}
+.media::after {
+  clear: both;
+}/*# sourceMappingURL=style.css.map */

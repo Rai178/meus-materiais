@@ -1,0 +1,9 @@
+$primary-color: #007bff;
+$secundary-color: #ccc;
+
+@mixin button-style {
+    background-color: $secundary-color;
+    padding: 20%;
+    border: 0.25rem;
+    
+}
