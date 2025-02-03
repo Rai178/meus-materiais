@@ -11,4 +11,4 @@ while linha <= qtd_linhas:
     linha += 1
 
 
-print('acabou, seu viado')
+print('acabou, eduardo chupa pao do caralho')
